@@ -8,6 +8,7 @@ The project is organized around:
 - gymnasium_lab/: environment setup and Gymnasium-based RL examples
 - gymnasium_lab/cartpole/: a CartPole notebook walkthrough and related documentation
 - gymnasium_lab/core/: supporting notebook work and environment experiments
+- gymnasium_lab/taxi/: a Taxi environment implementation and example code
 
 ## Project Structure
 
@@ -19,9 +20,12 @@ The project is organized around:
 │   ├── environment.yml
 │   ├── core/
 │   │   └── env.ipynb
-│   └── cartpole/
-│       ├── cartpole.ipynb
-│       └── README.md
+│   ├── cartpole/
+│   │   ├── cartpole.ipynb
+│   │   └── README.md
+│   └── taxi/
+│       ├── README.md
+│       └── taxi.py
 ```
 
 ## Prerequisites
